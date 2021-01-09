@@ -1,0 +1,80 @@
+em sẽ push file này lên git 
+ bt neu chi lam thi no co luu o day luon k
+mà từ từ chị dùng intelliJ đúng không
+thế chị có muốn push luôn bằng intelliJ không đỡ phải push kiểu này
+
+day chi ca 2 cach di 
+chờ e 10 giây rep tn đã
+ok
+ok giờ chỉ
+có 2 kiểu push
+1. thủ công clone về rồi chạy lệnh trên git bash (chắc chắn chị không thích cách này vì phải nhớ lệnh)
+- lên git copy link về vd: 
+bên trái là các repo để chị push chị chọn một repo mà chị muốn push lên rồi ấn vào rồi lấy link
+cóp song thì vào một mục nào đó ( nào cũng đc rồi chuột phải chọn git bash )
+gõ lệnh git clone <link vừa cop về> -.-
+là nó sẽ tạo cho một file như e vừa làm. tại desktop cũng đc đó thấy chưa
+ok
+làm lại nhé sai mẹ nó rồi không có <> hờn. shift enter cho nhanh nhé nhầm shift insert hehe
+lại đi
+ok
+ok ngon giờ và push cái gì thì cho vào đấy vd push file này nhé =)) nhớ phải đúng trong file clone về mới push đc
+chi hoi cai
+bt y 
+chị làm thì hay lưu nó trong file có git rồi chị cứ vào file đấy push chứ k cần cop đi đâu.
+cũng đc cơ mà nếu gặp lỗi thì tốt nhất là clone lại là không hay gặp lỗi nhất
+ok
+ok thế cách này thoy nhá
+các lệnh sau đấy là:
+git add . (cài này là nó add toàn bộ các file luôn. chị tự tìm hiểu )l
+chị nhớ rùi để  
+từ từ cho file này vào
+ok ngon
+hahahahaa . lệnh git add chị tự tìm hiểu thêm nhé. viì không phải lúc nào cũng push toàn bộ đâu
+ok
+-------------------------cách 2:
+push trên intelliJ:
+cái này phải tạo token trên git của chị thì nó mới push đc
+chờ chút. định ném cho cái file cơ mà lâu vất mẹ đâu ròi giờ em trình bày lại vậy =((:
+
+bước 1: tạo repository trong project:
+VCS -> ok. ờ cái này hiểu rồi thật ra nó tạo file .git thoy. với cả chị tạo rồi nên không cần
+bước 2: tạo remote:
+VCS -> git -> remote sau đó nhét cái link git để push lên vào. link thì biết lấy rồi
+bước 3: commit. cái này chắc chẳng phải dạy nhỉ =))hehehe
+chị biết commit rồi chứ. thoy chỉ luôn 
+nhập commit vào đây và chọn các file muốn commit lại. cái này nhanh hơn cả chạy git bash đỡ phải gõ nhiều. ok chưa
+e sao ra cai cua so nay vay. chị nhì kĩ bên trái có cái commit to lù lù thây
+ok -.-. nhớ là phải tạo file git rồi thì mới có cái
+cửa sổ này
+ok. giờ commit lại
+đó chị commit đi
+ấn vào commit à
+yes. đã nhập commit đâu đùa =s
+git commit con khỉ cái này là dòng commit của chị không có git commit gì cả. nó là string thường thoy
+cứ chọn commit nhé.
+ờ nó lỗi sắn rồi
+tốt nhất để không bị lỗi là xóa đi chạy lại ahihi =)). 
+làm như sau: vào folder xóa file git đi thoy
+kia á
+yes song. sau này lỗi intelliJ chị cũng có thể xóa file .idea đi rồi chạy lại =)) best fix bug =))
+ok
+từ từ em xem đã
+nhầm rồi đây không file folder project của intelliJ. chị để source code trong đâu
+nó phải có file .idea mới đúng
+có ơhải cái này không
+dung r. chị đừng để trong ổ c. ổ c chỉ để các phần mêm thoy. còn duwxl iệu thì phải
+để ở ổ D. chán đời. để ổ c đến lúc nào đầy lên lại không có không gian cho phần mềm
+ua dung v truoc xoa 1 kan r. haizz
+có mỗi cái token là em chỉ chị bgio thoy còn các cái khác chắc chị mò đc. chờ chút
+đó thị thấy gì không nếu chị xóa git đi thì nó đỏ lòm kể cả commit rồi.
+còn nếu xóa .idea đi thì lúc mở lại intelliJ nó sẽ tạo lại cái .idea đấy
+giờ làm lại từ đầu coi như mới toanh.
+em sẽ làm nhanh đến cái token thì chậm lại
+chán đời chờ tẹo tạo project mới hoàn toàn đi
+**************** tạo token như sau:
+setting -> devoloper setting -> personal access tokens -> generate new token
+nhập note và chọn đủ các tick sau
+repo + admin:org(cái này e không nhớ lắm nhưng mà cứ chọn cho chắc kèo) + gist
+rồi create thoy
+sau đó nó ra một cái token cóp nó lại
